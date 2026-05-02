@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #0b1a2a; /* 夜の湖っぽい */
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  #lyrics {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    pointer-events: none;
+    transition: transform 1s linear, opacity 1s;
+  }
